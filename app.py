@@ -1,7 +1,7 @@
 from flask import Flask
 
-server = Flask(__name__)
+application = Flask(__name__)
 
-@server.route('/')
+@application.route('/')
 def initalLoad():
     return 'Hello Yuvi'
